@@ -1,0 +1,53 @@
+input {
+  height: 38px;
+  padding: 0 10px;
+  margin: 0 3px 30px 0;
+  border-radius: 6px;
+  border: 1px solid #a3a3a3;
+  outline: 0;
+}
+
+input:focus {
+  border: 1px solid #ff3939;
+}
+
+button {
+  height: 40px;
+  width: 80px;
+
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  background-color: #ff3939;
+}
+
+button:active {
+  background-color: #ee2c2c;
+}
+
+.timer {
+  display: flex;
+}
+
+.field {
+  text-align: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 20px;
+}
+.value {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.label {
+  /* width: 50px; */
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1px;
+  color: #a3a3a3;
+}
