@@ -1,3 +1,3 @@
-﻿# goit-js-hw-009
+﻿# goit-js-hw-010
 
-JavaScript. Домашнее задание №9
+JavaScript. Домашнее задание №10
