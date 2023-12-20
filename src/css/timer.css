@@ -8,7 +8,7 @@ input {
 }
 
 input:focus {
-  border: 1px solid #ff3939;
+  border: 1px solid #ef5350;
 }
 
 button {
@@ -21,11 +21,18 @@ button {
   color: #ffffff;
   border: none;
   border-radius: 6px;
-  background-color: #ff3939;
+  background-color: #ef5350;
 }
 
 button:active {
-  background-color: #ee2c2c;
+  background-color: #e33633;
+}
+
+:disabled,
+:disabled:active {
+  background-color: #ffa5a5;
+  /* cursor: not-allowed !important; */
+  cursor: default;
 }
 
 .timer {
