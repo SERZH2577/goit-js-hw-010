@@ -28,10 +28,15 @@ button:active {
   background-color: #e33633;
 }
 
-:disabled,
-:disabled:active {
+[data-start]:disabled,
+[data-start]:disabled:active {
   background-color: #ffa5a5;
-  /* cursor: not-allowed !important; */
+  cursor: default;
+}
+
+#datetime-picker:disabled,
+#datetime-picker:disabled:active {
+  background-color: #e0e0e0;
   cursor: default;
 }
 
