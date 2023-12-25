@@ -28,6 +28,13 @@ button:active {
   background-color: #e33633;
 }
 
+.timer-container {
+  width: 281px;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #e6e6e6;
+}
+
 [data-start]:disabled,
 [data-start]:disabled:active {
   background-color: #ffa5a5;

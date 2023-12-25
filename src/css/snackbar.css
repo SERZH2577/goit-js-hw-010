@@ -1,0 +1,36 @@
+.form {
+  width: 300px;
+  padding: 20px;
+  background-color: #e6e6e6;
+  border-radius: 6px;
+}
+.form button {
+  width: 300px;
+}
+
+.state {
+  width: 20px;
+  margin: 0 10px 0 0;
+}
+
+.delay {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+fieldset {
+  margin: 0 0 10px 0;
+  border-radius: 6px;
+  border: 1px solid;
+  padding: 20px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+fieldset input {
+  margin-right: 5px;
+}
