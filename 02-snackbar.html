@@ -8,7 +8,11 @@
   <title>Snackbar</title>
   
 
-  <link rel="stylesheet" href="/goit-js-hw-010/assets/styles-70bba894.css">
+  <script type="module" crossorigin src="/goit-js-hw-010/commonHelpers2.js"></script>
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-010/assets/styles-92844b79.js">
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-010/assets/vendor-b2e127cd.js">
+  <link rel="stylesheet" href="/goit-js-hw-010/assets/styles-3612290b.css">
+  <link rel="stylesheet" href="/goit-js-hw-010/assets/vendor-f71e86e0.css">
 </head>
 
 <body>
@@ -21,17 +25,17 @@
     <form class="form">
       <label>
         Delay (ms)
-        <input type="number" name="delay" required />
+        <input type="number" name="delay" required class="delay" />
       </label>
 
       <fieldset>
         <legend>State</legend>
         <label>
-          <input type="radio" name="state" value="fulfilled" required />
+          <input type="radio" name="state" value="fulfilled" required class="state" />
           Fulfilled
         </label>
         <label>
-          <input type="radio" name="state" value="rejected" required />
+          <input type="radio" name="state" value="rejected" required class="state" />
           Rejected
         </label>
       </fieldset>
@@ -40,7 +44,7 @@
     </form>
   </section>
 
-
+  
 
 </body>
 
