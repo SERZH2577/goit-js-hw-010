@@ -15,7 +15,7 @@ function onOoo(e) {
   }
 
   createPromise(stateBool, formRef.elements.delay.value)
-    .then(({ delay }) => {
+    .then(delay => {
       iziToast.success({
         position: 'topRight',
         messageColor: 'brown',
@@ -23,7 +23,7 @@ function onOoo(e) {
         timeout: 3000,
       });
     })
-    .catch(({ delay }) => {
+    .catch(delay => {
       iziToast.error({
         position: 'topRight',
         messageColor: 'brown',
@@ -36,9 +36,9 @@ function onOoo(e) {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         if (state) {
-          resolve({ delay });
+          resolve(delay);
         } else {
-          reject({ delay });
+          reject(delay);
         }
       }, delay);
     });
